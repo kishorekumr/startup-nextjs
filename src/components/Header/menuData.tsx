@@ -78,7 +78,7 @@ const menuData: Menu[] = [
   //       path: "/error",
   //       newTab: false,
   //     },
-    ],
-  },
+  //   ],
+  // },
 ];
 export default menuData;
