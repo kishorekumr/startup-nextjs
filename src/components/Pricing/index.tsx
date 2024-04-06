@@ -21,7 +21,7 @@ const Pricing = () => {
           <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
             <span
               onClick={() => setIsMonthly(true)}
-              className={`INR{
+              className={`${
                 isMonthly
                   ? "pointer-events-none text-primary"
                   : "text-dark dark:text-white"
