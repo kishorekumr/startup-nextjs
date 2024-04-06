@@ -46,7 +46,7 @@ const Pricing = () => {
             </div>
             <span
               onClick={() => setIsMonthly(false)}
-              className={`${
+              className={`{
                 isMonthly
                   ? "text-dark dark:text-white"
                   : "pointer-events-none text-primary"
